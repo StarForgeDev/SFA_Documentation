@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ page.description | default: site.description }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="{{ '/' | relative_url }}">StarForge Armory Docs</a>
+      <nav aria-label="Main navigation">
+        <a href="{{ '/modules/' | relative_url }}">Modules</a>
+        <a href="{{ '/addons/' | relative_url }}">Addons</a>
+        <a href="{{ '/reference/classnames/' | relative_url }}">Classnames</a>
+        <a href="{{ '/publishing/' | relative_url }}">Publishing</a>
+      </nav>
+    </header>
+    <main class="page">
+      {{ content }}
+    </main>
+    <footer class="site-footer">
+      <span>StarForge Armory documentation draft. Verify gameplay behavior in Arma before treating runtime notes as final.</span>
+    </footer>
+  </body>
+</html>

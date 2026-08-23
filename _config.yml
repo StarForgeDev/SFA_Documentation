@@ -1,0 +1,12 @@
+title: StarForge Armory Documentation
+description: Public documentation for StarForge Armory Arma 3 modules, addons, and workflows.
+url: ""
+baseurl: ""
+markdown: kramdown
+permalink: pretty
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

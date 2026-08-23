@@ -1,0 +1,8 @@
+.jekyll-cache/
+_site/
+.sass-cache/
+.bundle/
+vendor/
+*.log
+Thumbs.db
+desktop.ini
