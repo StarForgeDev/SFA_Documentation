@@ -6,6 +6,12 @@ title: Modules
 
 The SFA module addon registers Eden modules under the `SFA Modules` category. These pages are written for mission makers first, then maintainers.
 
+<div class="status-strip compact">
+  <span><strong>Category:</strong> SFA Modules</span>
+  <span><strong>Audience:</strong> mission makers</span>
+  <span><strong>Verification:</strong> per mission</span>
+</div>
+
 ## Module Index
 
 | Module | Class | Purpose |

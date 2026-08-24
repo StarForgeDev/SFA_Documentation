@@ -9,7 +9,10 @@
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="{{ '/' | relative_url }}">StarForge Armory Docs</a>
+      <a class="brand" href="{{ '/' | relative_url }}">
+        <span class="brand-mark">SFA</span>
+        <span>StarForge Armory Docs</span>
+      </a>
       <nav aria-label="Main navigation">
         <a href="{{ '/modules/' | relative_url }}">Modules</a>
         <a href="{{ '/addons/' | relative_url }}">Addons</a>
@@ -21,7 +24,8 @@
       {{ content }}
     </main>
     <footer class="site-footer">
-      <span>StarForge Armory documentation draft. Verify gameplay behavior in Arma before treating runtime notes as final.</span>
+      <span>StarForge Armory documentation draft.</span>
+      <span>Source notes are separate from Arma runtime verification.</span>
     </footer>
   </body>
 </html>
