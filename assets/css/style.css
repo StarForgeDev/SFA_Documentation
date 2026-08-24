@@ -239,16 +239,19 @@ blockquote {
 
 .hero-visual {
   position: absolute;
-  inset: auto 0 0 auto;
-  width: min(100%, 960px);
-  opacity: 0.76;
-  transform: translate(6%, 4%);
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.58;
+  transform: none;
 }
 
 .hero-visual img {
   display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .eyebrow,
@@ -367,10 +370,10 @@ blockquote {
   }
 
   .hero-visual {
-    width: 860px;
-    max-width: none;
+    width: 100%;
+    height: 100%;
     opacity: 0.48;
-    transform: translate(20%, 2%);
+    transform: none;
   }
 
   .status-strip,
