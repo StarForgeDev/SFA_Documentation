@@ -13,16 +13,9 @@ title: Home
     </div>
   </div>
   <div class="hero-visual" aria-hidden="true">
-    <img src="./assets/img/sfa-helmet-frame.png" alt="">
+    <img src="./assets/img/sfa-hero-action.png" alt="">
   </div>
 </section>
-
-<div class="status-strip">
-  <span><strong>Source:</strong> local SFA_Main snapshot</span>
-  <span><strong>Site:</strong> GitHub Pages ready</span>
-  <span><strong>Status:</strong> early draft</span>
-  <span><strong>Rule:</strong> runtime claims need Arma testing</span>
-</div>
 
 <div class="grid">
   <section class="card">
