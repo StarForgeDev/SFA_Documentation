@@ -10,6 +10,18 @@ Function: `SFA_fnc_moduleZeroG`
 
 The Zero-G Area module creates a configurable movement zone for players and, optionally, AI. It is intended for spaceships, stations, damaged interiors, vacuum sections, and special mission set pieces.
 
+## What It Is
+
+Zero-G Area replaces normal ground movement inside a defined module area with StarForge zero-gravity movement. It supports floating movement, boosted movement, drift, roll control, recoil movement, and optional magnetic floor clamping.
+
+Use it for ship interiors with gravity failure, exterior hull walks, asteroid scenes, orbital debris fields, space stations, vacuum sections, and any set piece where StarForge movement should feel different from standard Arma infantry movement.
+
+## How It Works
+
+The module area defines where the system applies. When a player enters the area, the Zero-G client logic controls movement using thrust, speed caps, drag, and roll settings. If magnetic floor clamping is enabled, the system searches for valid floor-like surfaces close to the player and allows floor movement when the surface is acceptable.
+
+The current intended behavior is floor-only clamping. Walls, ceilings, vehicles, crates, and props should not be treated as walkable magnetic surfaces unless that behavior is intentionally changed and retested.
+
 ## Basic Setup
 
 1. Place `Zero-G Area` from the `SFA Modules` Eden category.
@@ -18,7 +30,7 @@ The Zero-G Area module creates a configurable movement zone for players and, opt
 4. Tune thrust, speed, drag, floor clamping, and AI settings.
 5. Test in the same environment the mission will use: singleplayer, hosted multiplayer, or dedicated server.
 
-## Key Settings
+## What Can Be Changed
 
 | Setting | Property | Use |
 | --- | --- | --- |
